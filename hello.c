@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void master(void) {
+	printf("MASTER !!!\n");
+}
+
 void myname(void) {
 	printf("SEIN MYUNG!!!\n");
 }
@@ -7,5 +11,6 @@ void myname(void) {
 int main(void) {
 	printf("hello git!!\n");
 	myname();
+	master();
 }
 
